@@ -3,7 +3,7 @@ easycards:
   build-version: 148
   mailDetails:
     hostName: prod-accounts@easybank.com
-    port: 9010
+    port: 9020
     from: dev-cards@easybank.com
     subject: Your Cards Details from Eazy Bank Dev Environment
   activeBranches: 

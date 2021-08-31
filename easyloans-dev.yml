@@ -3,7 +3,7 @@ easyaloans:
   build-version: 148
   mailDetails:
     hostName: prod-accounts@easybank.com
-    port: 9010
+    port: 9030
     from: dev-loans@easybank.com
     subject: Your Loan Details from Eazy Bank Dev Environment
   activeBranches: 

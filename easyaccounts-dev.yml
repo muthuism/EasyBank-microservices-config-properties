@@ -2,7 +2,7 @@ easyaccounts:
   msg: Welcome to the EasyBank Accounts Dev application
   build-version: 148
   mailDetails:
-    hostName: prod-accounts@easybank.com
+    hostName: dev-accounts@easybank.com
     port: 9010
     from: dev-accounts@easybank.com
     subject: Your Account Details from Eazy Bank Dev Environment
