@@ -1,10 +1,10 @@
 easyaccounts:
-  msg: Welcome to the EazyBank Accounts Prod application
+  msg: Welcome to the EasyBank Accounts Prod application
   build-version: 148
   mailDetails:
-    hostName: prod-accounts@eazybytes.com
+    hostName: prod-accounts@easybank.com
     port: 9010
-    from: prod-accounts@eazybytes.com
+    from: prod-accounts@easybank.com
     subject: Your Account Details from Eazy Bank Production Environment
   activeBranches: 
      - Hydreabad
