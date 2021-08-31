@@ -1,18 +1,14 @@
-spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/accounts?useSSL=false&allowPublicKeyRetrieval=true 
-    username: ${MYSQL_USERNAME:root}
-    password: ${MYSQL_PASSWORD:root}
-  jpa:
-    show-sql: true
-    properties:
-      dialect: org.hibernate.dialect.MySQL8Dialect
-    hibernate: 
-      ddl-auto: update
-      
-server:
-  port: 7070
-  servlet:
-    context-path: /accounts
+easyaccounts:
+  msg: Welcome to the EazyBank Accounts Prod application
+  build-version: 148
+  mailDetails:
+    hostName: prod-accounts@eazybytes.com
+    port: 9010
+    from: prod-accounts@eazybytes.com
+    subject: Your Account Details from Eazy Bank Production Environment
+  activeBranches: 
+     - Hydreabad
+     - Paris
+     - NewYork
+
       
