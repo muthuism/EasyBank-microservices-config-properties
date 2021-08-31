@@ -1,18 +1,14 @@
-spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/loans?useSSL=false&allowPublicKeyRetrieval=true 
-    username: ${MYSQL_USERNAME:root}
-    password: ${MYSQL_PASSWORD:root}
-  jpa:
-    show-sql: true
-    properties:
-      dialect: org.hibernate.dialect.MySQL8Dialect
-    hibernate: 
-      ddl-auto: update
-      
-server:
-  port: 7072
-  servlet:
-    context-path: /loans
+easyaloans:
+  msg: Welcome to the EasyBank Loans Dev application
+  build-version: 148
+  mailDetails:
+    hostName: prod-accounts@easybank.com
+    port: 9010
+    from: dev-loans@easybank.com
+    subject: Your Loan Details from Eazy Bank Dev Environment
+  activeBranches: 
+     - Hydreabad
+     - Paris
+     - NewYork
+
       
