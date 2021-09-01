@@ -1,6 +1,6 @@
 easyaccounts:
   msg: Welcome to the EasyBank Accounts Dev application
-  build-version: 1488
+  build-version: 148
   mailDetails:
     hostName: dev-accounts@easybank.com
     port: 9010
